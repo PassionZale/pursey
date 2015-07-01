@@ -3,5 +3,5 @@ RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ /index.php/$1 [L]   
-#若你的项目名为：TestCI 则此处应为RewriteRule ^(.*)$ /TestCI/index.php/$1 [L] 
+#鑻ヤ綘鐨勯」鐩悕涓猴細TestCI 鍒欐澶勫簲涓篟ewriteRule ^(.*)$ /TestCI/index.php/$1 [L]
 </IfModule>

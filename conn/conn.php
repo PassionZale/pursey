@@ -1,5 +1,5 @@
 <?php
-     $conn=mysql_connect("localhost","root","root") or die("Êý¾Ý¿â·þÎñÆ÷Á¬½Ó´íÎó".mysql_error());
-     mysql_select_db("db_pursey",$conn) or die("Êý¾Ý¿â·ÃÎÊ´íÎó".mysql_error());
-     mysql_query("set names gb2312");
+$conn = mysql_cononect('localhost','root','');//è¿žæŽ¥mysqlæœåŠ¡å™¨
+$db = mysql_select_db("dbpursey",$conn) or die('æ•°æ®åº“è¿žæŽ¥å¤±è´¥'.mysql_error());//è¿žæŽ¥æ•°æ®åº“
+mysql_query('set names utf-8');//é‡‡ç”¨UTF-8ç¼–ç æ ¼å¼
 ?>
